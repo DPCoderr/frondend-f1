@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #15151E;
+    /* background-color: red; */
+    color: #ffff;
+}
+
+.small-email-font {
+    font-size: x-small;
+}
+
+#default-pfp {
+    height: auto;
+    width: 100%;
+    max-width: 270px;
+
+}
+
+.nav-item.active .nav-link {
+    text-decoration: underline;
+}
+
+#pills-tab{
+    margin-top: 1rem;
+}
+
+.custom-ol li:nth-child(even) {
+    background-color: #c0c0c0; 
+}
+
+.custom-ol li:nth-child(odd):before {
+    background-color: #f0f0f0; 
+}
+
+.custum-color:nth-child(even){
+    background-color: #212129;
+    color: #ffff;
+}
+
+.custum-color:nth-child(odd){
+    background-color: #15151E;
+    color: #ffff;
+}
