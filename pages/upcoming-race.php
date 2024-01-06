@@ -86,8 +86,8 @@
 
                 <!-- Row with 3 columns (leaderboard content) -->
                 <div class="row g-0 mb-4 border border-2 border-footer">
-                    <!-- Column left (rank) -->
-                    <div class="col-4">
+                    <!-- Column rank -->
+                    <div class="col-3">
                         <ul class="list-group">
                             <li class="list-group-item custum-color border-0 fw-bold">Rank</li>
                             <!-- Backend: copy under in a loop -->
@@ -106,9 +106,9 @@
                             <li class="list-group-item custum-color border-0">10000</li>
                         <ul>
                     </div>
-                    <!-- Column in the middle (name) -->
-                    <div class="col-4">
-                        <ul class="list-group text-center">
+                    <!-- Column name -->
+                    <div class="col-3">
+                        <ul class="list-group text-start">
                             <!-- Backend: copy under in a loop -->
                             <li class="list-group-item custum-color border-0 fw-bold">Name</li>
                             <li class="list-group-item custum-color border-0">hi</li>
@@ -126,8 +126,8 @@
                             <li class="list-group-item custum-color border-0">12hihi12</li>
                         <ul>
                     </div>
-                    <!-- Column right (time) -->
-                    <div class="col-4">
+                    <!-- column time -->
+                    <div class="col-3">
                         <ul class="list-group text-end">
                             <!-- Backend: copy under in a loop -->
                             <li class="list-group-item custum-color border-0 fw-bold">Time</li>
@@ -144,6 +144,92 @@
                             <li class="list-group-item custum-color border-0">1:22:21</li>
                             <li class="list-group-item custum-color border-0">1:22:21</li>
                             <li class="list-group-item custum-color border-0">1:22:21</li>
+                        <ul>
+                    </div>
+
+                    <!-- Column proof -->
+                    <div class="col-3">
+                        <ul class="list-group text-end">
+                            <!-- Backend: copy under in a loop -->
+                            <li class="list-group-item custum-color border-0 fw-bold">Proof</li>
+                            <!-- Image link proof -->
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-group-item custum-color border-0">
+                                <a href="" class="text-white">
+                                    <i class="bi bi-image"></i>
+                                </a>
+                            </li>
                         <ul>
                     </div>
                 </div>

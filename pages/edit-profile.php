@@ -4,7 +4,7 @@
 
     <?php require '../partials/nav.php'; ?>
 
-    <main>
+    <main class>
         <!-- Edit profile -->
         <section id="edit-profile" class="my-5">
                 <div class="container-lg">
@@ -35,16 +35,48 @@
                         <div class="col-6 col-md-5">
                             <form action="">                           
                                 <!-- Profile picture input -->
-                                <div class="mb-4 text-center">
+                                <div class="mb-4 d-flex flex-column align-items-center">
                                     <!-- Image -->
-                                    <img src="../assets/Default_pfp400x400.svg.png" id="default-pfp" class="rounded-circle img-fluid border border-2 mb-4" alt="profile picture">
-                                    <!-- File input button -->
-                                    <div class="input-group justify-content-center">
-                                        <label for="pfp-file" class="btn px-3 border text-white">
-                                            Edit
-                                            <input class="form-control" type="file" id="pfp-file" style="display: none;">
-                                        </label>
+                                    <img src="../assets/f1-team-logo/redbull-logo.jpeg" id="default-pfp" class="rounded-circle img-fluid border border-2 mb-4" alt="profile picture">
+                                    
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn border text-white" data-bs-toggle="modal" data-bs-target="#edit-profile-picture-modal">Add Profile Picture</button>
+                                    
+                                    <!-- Modal (profile picture) -->
+                                    <div class="modal fade" id="edit-profile-picture-modal" tabindex="-1" aria-labelledby="edit-profile-picture-modal" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content text-start">
+                                                <!-- Modal header -->
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="edit-profile-picture-modal">Choose your profile picture</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <!-- Backend: form time -->
+                                                <!-- Modal body: form images -->
+                                                <div class="modal-body px-0 text-center">
+                                                    <form action="" method="post" id="send-time-form">
+                                                        <img src="../assets/f1-team-logo/redbull-logo.jpeg" alt="redbull logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/alpha-logo.jpeg" alt="alpha logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/alpine-logo.jpeg" alt="alpine logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/mercedes-logo.jpeg" alt="mercedes logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/aston-logo.jpeg" alt="aston logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/mclaren-logo.jpeg" alt="mclaren logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/ferrari-logo.jpeg" alt="ferrari logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/haas-logo.jpeg" alt="haas logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/williams-logo.jpeg" alt="williams logo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                        <img src="../assets/f1-team-logo/alfa-logo.jpeg" alt="alfalogo" style="width: 150px;" class="img-fluid mb-1 border">
+                                                    </form>
+                                                </div>
+                                                <!-- Backend: form time submit btn -->
+                                                <!-- Modal footer -->
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="submit" class="btn btn-f1purple" onclick="submitForm()">Add Picture</button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+
                                 </div>
     
                                 <!-- Username input -->

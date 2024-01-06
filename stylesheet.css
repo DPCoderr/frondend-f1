@@ -43,3 +43,33 @@ body, html {
     background-color: #15151E;
     color: #ffff;
 }
+
+
+
+/* Test */
+ /* Extra Small Devices, Phones */ 
+ @media only screen and (min-width : 480px) {
+    
+ }
+ 
+ /* Small Devices, Tablets */
+ @media only screen and (min-width : 768px) {
+ 
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) {
+    .border-lg-top {
+        border-top: 2px solid rgb(240, 240, 240);
+    }
+
+    .border-lg-end {
+        border-right: 2px solid #f0f0f0;
+    }
+ 
+ }
+ 
+ /* Large Devices, Wide Screens */
+ @media only screen and (min-width : 1200px) {
+ 
+ }

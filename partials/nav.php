@@ -26,7 +26,7 @@
                             <a href="../pages/upcoming-race.php" class="nav-link text-white">Upcoming Race</a>      
                         </li>
                         <li class="nav-item">
-                            <a href="#profile" class="nav-link text-white">Profile</a>
+                            <a href="../pages/profile.php" class="nav-link text-white">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a href="../pages/contact.php" class="nav-link text-white">Contact</a>

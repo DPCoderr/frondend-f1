@@ -33,6 +33,11 @@ $(document).ready(function() {
 //     });
 // });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+});
+
 // jQuery to submit the form.
 function submitForm() {
     $('#send-time-form').submit();
